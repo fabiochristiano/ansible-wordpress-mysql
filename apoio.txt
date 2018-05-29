@@ -1,0 +1,4 @@
+sudo ansible-playbook -i hosts provisioning.yml
+
+ansible wordpress -i hosts -m ping
+ansible database -i hosts -m ping
